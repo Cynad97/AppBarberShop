@@ -1,0 +1,22 @@
+.formulary {
+    width: 100%;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    label{
+        flex: 0 0 10rem;
+        color: $white;
+    }
+
+    input {
+        flex: 1;
+        padding: calc($range / 4);
+        border-radius: 1rem;
+        border: none;
+    }
+    
+}

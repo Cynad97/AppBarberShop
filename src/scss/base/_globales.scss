@@ -29,7 +29,7 @@ img {
 
 h1, h2, h3 {
     font-family: $principalFont;
-    margin: 0 0 $range / 2 0 ;
+    margin: 0 0 calc($range / 2) 0 ;
     font-weight: 900;
     color: $blue;
     text-align: center;
